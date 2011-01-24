@@ -8,7 +8,7 @@ A nicer shortcut to using the syntax:
 
 Instead, you can do:
 
-    from automain import *  # will only import automain
+    from automain import *  # will only import the automain decorator
 
     @automain
     def mymain():

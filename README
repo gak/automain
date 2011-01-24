@@ -1,0 +1,15 @@
+automain
+========
+
+A nicer shortcut to using the syntax:
+
+    if __name__ == '__main__'
+
+Instead, you can do:
+
+    from automain import *  # will only import automain
+
+    @automain
+    def startup():
+        print 'this is our main function'
+

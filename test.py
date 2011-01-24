@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from automain import *
 
 @automain

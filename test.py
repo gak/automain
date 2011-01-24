@@ -1,4 +1,4 @@
-from automain import automain
+from automain import *
 
 @automain
 def main():

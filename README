@@ -1,7 +1,7 @@
 automain
 ========
 
-A nicer shortcut to using the syntax:
+A neater shortcut to using the syntax:
 
     if __name__ == '__main__':
         mymain()

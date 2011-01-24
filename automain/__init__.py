@@ -5,4 +5,3 @@ def automain(func):
     if name == '__main__':
         func()
 
-

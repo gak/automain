@@ -1,0 +1,3 @@
+def automain(func):
+    func()
+

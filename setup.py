@@ -5,8 +5,9 @@ readme = open('README.md').read()
 
 setup(
     name='automain',
-    version='1.1',
-    description='A neat replacement of "if __name__ == \"main\":"',
+    version='1.2',
+    description='A more aesthetically pleasing replacement ' + \
+        'of "if __name__ == \'main\':"',
     long_description=readme,
     author='Gerald Kaszuba',
     author_email='automain@gakman.com',

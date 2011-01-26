@@ -3,6 +3,9 @@ automain
 
 A neater shortcut to using the syntax:
 
+    def mymain():
+        print 'this is our main function'
+
     if __name__ == '__main__':
         mymain()
 

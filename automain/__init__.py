@@ -4,4 +4,4 @@ def automain(func):
     name = parent.f_locals.get('__name__', None)
     if name == '__main__':
         func()
-
+    return func

@@ -1,7 +1,9 @@
+import inspect
+
 def automain(func):
-    import inspect
-    parent = inspect.stack()[1][0]
-    name = parent.f_locals.get('__name__', None)
-    if name == '__main__':
+    locale = inspect.stack()[1][0].f_locals
+    module = locale.get("__name__", None)
+    if module == "__main__":
+        locale[func.__name__] = func
         func()
     return func
